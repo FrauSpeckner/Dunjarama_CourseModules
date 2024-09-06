@@ -22,7 +22,7 @@ The **Base Design** category contains the essential CSS rules that applys to all
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: "mebisDruckschrift", Arial;
   font-size: 24px;
-}
+} ```
 
 ## 🐶🐱**Flavour: Horst and Wolke** ☁️
 
