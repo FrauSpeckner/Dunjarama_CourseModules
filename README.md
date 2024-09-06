@@ -13,7 +13,7 @@ This project includes various design elements for Moodle course components, orga
 The **Base Design** category contains the essential CSS rules that applys to all containers and boxes in this category. These styles include general settings like border, colors, font, and layout – everything you need to give the design a consistent, polished look! ✨
 
 ### Example:
-```
+
 .c4l-box {
   border-radius: 15px;
   border: 4px solid black;
