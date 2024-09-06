@@ -25,6 +25,7 @@ The **Base Design** category contains the essential CSS rules that applys to all
     } 
 
 
+___
 
 ## 🐶🐱**Flavour: Horst and Wolke** ☁️
 
@@ -34,23 +35,24 @@ The **Base Design** category contains the essential CSS rules that applys to all
 - **Avatar:** Horst ist the star here 
 - **Images:** Depending on the component type (like Tip or Feedback), Horst shows different fun expressions! 😎
 
-___
-.c4l-avatar1.c4l-tip::before {
+
+    .c4l-avatar1.c4l-tip::before {
     background-image: url('https://assets.codepen.io/7398902/mDS_Horst_peace.png');
-}
-___
+    }
+
 
 ### **Wolke** (c4l_avatar2)
 
 - **Avatar:**  Wolke is here to brighten your day! ☁️
 - **Images:** Wolke’s images change according to the content of the box. 😊
 
-___
-.c4l-avatar2.c4l-feedback::before {
-    background-image: url('https://assets.codepen.io/7398902/Wolke-Feedback.svg');
-}
-___
 
+    .c4l-avatar2.c4l-feedback::before {
+    background-image: url('https://assets.codepen.io/7398902/Wolke-Feedback.svg');
+    }
+
+
+___
 
 ## **📦 Components: Different Box Types 📦**
 
@@ -60,20 +62,20 @@ Each **component** represents a different type of content you can use in your Mo
 
 - **Tip Box** (.c4l-tip): Contains helful tips to make things clearer. 💡
 
-___
-.c4l-box.c4l-tip {
-  background-color: #FFEECC;
-}
-___
 
+    .c4l-box.c4l-tip {
+    background-color: #FFEECC;
+    }
+  
 - **Feedback Box** (.c4l-feedback): Shows feedback in a colorful and fun way! 🌟
 
-___
-.c4l-box.c4l-feedback {
-  background-color: #E7FAC3;
-}
-___
 
+    .c4l-box.c4l-feedback {
+    background-color: #E7FAC3;
+    }
+
+
+___
 
 ## **📝 HTML Code 📝**
 
@@ -81,18 +83,19 @@ Here’s where the magic happens! ✨ In this section, you’ll find the HTML co
 
 **Example HTML:**
 
-___
-<div class="c4l-box c4l-avatar1 c4l-tip">
-  <p>Tip from Horst: [PLACEHOLDER FOR TEXT]</p>
-</div>
+    
+    <div class="c4l-box c4l-avatar1 c4l-tip">
+    <p>Tip from Horst: [PLACEHOLDER FOR TEXT]</p>  
+    </div>
 
-<div class="c4l-box c4l-avatar2 c4l-feedback">
-  <p>Feedback from Wolke: [PLACEHOLDER FOR TEXT]</p>
-</div>
+    <div class="c4l-box c4l-avatar2 c4l-feedback">
+    <p>Feedback from Wolke: [PLACEHOLDER FOR TEXT]</p>
+    </div>
 
 
 You can easily swap out the avatars or change the box types to fit your course.  🚀
 
+____
 
 ## **🎨 Customization 🎨**
 
