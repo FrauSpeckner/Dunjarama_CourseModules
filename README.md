@@ -13,17 +13,17 @@ This project includes various design elements for Moodle course components, orga
 The **Base Design** category contains the essential CSS rules that applys to all containers and boxes in this category. These styles include general settings like border, colors, font, and layout – everything you need to give the design a consistent, polished look! ✨
 
 ### Example:
-___
-.c4l-box {
-  border-radius: 15px;
-  border: 4px solid black;
-  padding: 20px;
-  margin: 40px 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: "mebisDruckschrift", Arial;
-  font-size: 24px;
-} 
-___
+
+    .c4l-box {
+    border-radius: 15px;
+    border: 4px solid black;
+    padding: 20px;
+    margin: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "mebisDruckschrift", Arial;
+    font-size: 24px;
+    } 
+
 
 
 ## 🐶🐱**Flavour: Horst and Wolke** ☁️
@@ -52,7 +52,7 @@ ___
 ___
 
 
-##**📦 Components: Different Box Types 📦**
+## **📦 Components: Different Box Types 📦**
 
 Each **component** represents a different type of content you can use in your Moodle course! 💬 Whether you’re giving feedback or sharing tips, these boxes are easily customizable. 🎉
 
@@ -89,11 +89,11 @@ ___
 <div class="c4l-box c4l-avatar2 c4l-feedback">
   <p>Feedback from Wolke: [PLACEHOLDER FOR TEXT]</p>
 </div>
-___
+
 
 You can easily swap out the avatars or change the box types to fit your course.  🚀
 
 
-##**🎨 Customization 🎨**
+## **🎨 Customization 🎨**
 
 This design is made to be super flexible so you can customize it quickly! 😘 Change the Flavour, update the box types, or swap out images. Everything is designed to be simple and fast to update, giving you maximum control over the look. ✨
