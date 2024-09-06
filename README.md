@@ -1,5 +1,6 @@
 # Dunjarama - CourseModules for the C4L-Plugin 🎉
-# 🎨 Moodle CSS Design for Course Components 🎨
+
+## 🎨 Moodle CSS Design for Course Components 🎨
 
 ![Title Image](https://assets.codepen.io/7398902/readme.png)
 
