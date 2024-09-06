@@ -14,7 +14,7 @@ The **Base Design** category contains the essential CSS rules that applys to all
 
 ### Example:
 
-.c4l-box {
+```.c4l-box {
   border-radius: 15px;
   border: 4px solid black;
   padding: 20px;
