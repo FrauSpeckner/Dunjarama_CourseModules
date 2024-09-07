@@ -3,6 +3,21 @@
 ## Category: horst_cloud
 Horst and cloud are the main characters, and they have their own special category. Below, you can see the images required for this category. 
 
+
+### 🌟 Preview on Codepen 🌟
+[✨ Check it out on Codepen! ✨](https://codepen.io/Frau-Speckner/pen/JjQwxWd?editors=1100)
+
+---
+
+### 🎨 CSS for horst_cloud 🎨
+[💻 View the CSS file on GitHub 💻](https://github.com/FrauSpeckner/Dunjarama_CourseModules/blob/main/horst_cloud_CSS)
+
+---
+
+### 📝 HTML for horst_cloud 📝
+[📄 View the HTML file on GitHub 📄](https://github.com/FrauSpeckner/Dunjarama_CourseModules/blob/main/horst_wolke/horst_cloud_HTML)
+
+
 ### Preview Images:
 
 #### Horst:
@@ -12,11 +27,3 @@ Horst and cloud are the main characters, and they have their own special categor
 ![Cloud Vorschaubild](https://assets.codepen.io/7398902/Kopie+von+Lisa+Ross+-+-.png)
 
 
-### Code Explanation for horst_cloud
-In the **horst_cloud** category, we define the **main look* for all the boxes used in this category. This includes styling elements such as: 
-
-- **Border Size**: the thickness of the border around each box.
-- **Border Roundings**: How rounded the corners of the boxes are.
-- **Main color**: The primary color used for this category
-- **Box shadow**: If and what shadow is used
-- **Font Family**: The specific font used for text within the boxes. 
