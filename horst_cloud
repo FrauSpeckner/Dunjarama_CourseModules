@@ -25,7 +25,7 @@
   padding-top: 80px;
 }
 
-/* Kasten mit Avatar - Horst im Titel */
+/* styles for the titelcontainer */
 .c4l_horst_cloud-titel-container.c4l_horst_cloud-avatar1.c4l_horst_cloud-titel::before {
   content: "";
   position: absolute;
@@ -48,7 +48,7 @@
   background-repeat: no-repeat; 
 }
 
-/* Avatar 1 und Avatar 2 */
+/* Avatar1 und Avatar2 */
 .c4l_horst_cloud-avatar1::before, .c4l_horst_cloud-avatar2::before {
   content: "";
   position: absolute;
@@ -61,14 +61,14 @@
   z-index: 2;
 }
 
-/* Avatar 1 - links (Horst) */
+/* Avatar 1 - left (Horst) */
 .c4l_horst_cloud-avatar1::before {
   left: -20px; /* Weniger Abstand links */
   background-color: transparent; /* Kein zusätzlicher Hintergrund */
   border: none; /* Kein Rahmen um Avatare */
 }
 
-/* Avatar 2 - rechts (Cloud) */
+/* Avatar 2 - right (Cloud) */
 .c4l_horst_cloud-avatar2::before {
   right: -30px; /* Weniger Abstand rechts */
   background-color: transparent;
