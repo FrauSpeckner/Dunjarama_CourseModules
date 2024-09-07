@@ -1,1 +1,206 @@
-.
+/* Category */
+
+@font-face {
+  font-family: "mebisDruckschrift";
+  src: url("//2ttf.com/webfont/E359HAxTxQY/webfont.ttf") format("truetype");
+}
+
+/* Titelcontainer */
+.c4l_horst_cloud-titel-container {
+  background-color: #f4c159;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 2px, transparent 2px);
+  background-size: 20px 20px;
+  color: black;
+  padding: 10px; 
+  text-align: center;
+  border: 4px solid black;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  position: relative;
+  z-index: 1;
+  font-family: "mebisDruckschrift", Arial;
+  font-weight: bold;
+  font-size: 44px;
+  padding-top: 80px;
+}
+
+/* Kasten mit Avatar - Horst im Titel */
+.c4l_horst_cloud-titel-container.c4l_horst_cloud-avatar1.c4l_horst_cloud-titel::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -100px; 
+  width: 160px;
+  height: 160px;
+  background-color: #f4c159;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  background-image: url("https://assets.codepen.io/7398902/Horst_Titel.svg");
+  background-size: 110%; 
+  background-position: center top; 
+  background-repeat: no-repeat; 
+}
+
+/* Avatar 1 und Avatar 2 */
+.c4l_horst_cloud-avatar1::before, .c4l_horst_cloud-avatar2::before {
+  content: "";
+  position: absolute;
+  top: -50px; 
+  width: 160px; 
+  height: 160px;
+  border-radius: 0%;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+
+/* Avatar 1 - links (Horst) */
+.c4l_horst_cloud-avatar1::before {
+  left: -20px; /* Weniger Abstand links */
+  background-color: transparent; /* Kein zusätzlicher Hintergrund */
+  border: none; /* Kein Rahmen um Avatare */
+}
+
+/* Avatar 2 - rechts (Cloud) */
+.c4l_horst_cloud-avatar2::before {
+  right: -30px; /* Weniger Abstand rechts */
+  background-color: transparent;
+  border: none;
+}
+
+/* Textboxes */
+.c4l_horst_cloud-box {
+  border-radius: 15px;
+  border: 4px solid black;
+  padding: 10px;
+  margin: 40px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "mebisDruckschrift", Arial;
+  font-size: 24px;
+  min-width: 400px;
+  max-width: 99%;
+  position: relative;
+  padding-left: 115px; 
+  padding-right: 100px; 
+  box-sizing: border-box;
+}
+
+/* Box for avatar2 (cloud) - dotted border */
+.c4l_horst_cloud-box.c4l_horst_cloud-avatar2 {
+  border-style: dotted;
+}
+
+/* Making the design responsive */
+@media (max-width: 768px) {
+  .c4l_horst_cloud-avatar1::before,
+  .c4l_horst_cloud-avatar2::before {
+    width: 80px; /* making the Avatars smaler */
+    height: 80px;
+    top: -30px;
+  }
+
+  .c4l_horst_cloud-box {
+    padding-left: 40px; 
+    padding-right: 40px; 
+  }
+
+  .c4l_horst_cloud-titel-container {
+    font-size: 36px; 
+  }
+
+  .c4l_horst_cloud-box {
+    font-size: 18px; 
+  }
+}
+
+
+
+
+/* Flavours - Pics for the boxes */
+/* avatares for Horst */
+
+.c4l_horst_cloud-avatar1.c4l_horst_cloud-tip::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar1_tip.svg');
+}
+
+.c4l_horst_cloud-avatar1.c4l_horst_cloud-szenario::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar1_szenario.svg');
+}
+
+.c4l_horst_cloud-avatar1.c4l_horst_cloud-problem::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar1_question.svg');
+}
+
+.c4l_horst_cloud-avatar1.c4l_horst_cloud-dontdo::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar1_dontdo.svg');
+}
+
+.c4l_horst_cloud-avatar1.c4l_horst_cloud-feedback::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar1_feedback.svg');
+}
+
+.c4l_horst_cloud-avatar1.c4l_horst_cloud-task::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar1_task.svg');
+}
+
+/* avatares for the cloud */
+.c4l_horst_cloud-avatar2.c4l_horst_cloud-tip::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar2_tip.svg');
+}
+
+.c4l_horst_cloud-avatar2.c4l_horst_cloud-szenario::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar2_szenario.svg');
+}
+
+.c4l_horst_cloud-avatar2.c4l_horst_cloud-problem::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar2_question.svg');
+}
+
+.c4l_horst_cloud-avatar2.c4l_horst_cloud-dontdo::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar2_dontdo.svg');
+}
+
+.c4l_horst_cloud-avatar2.c4l_horst_cloud-feedback::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar2_feedback.svg');
+}
+
+.c4l_horst_cloud-avatar2.c4l_horst_cloud-task::before {
+  background-image: url('https://assets.codepen.io/7398902/horst_cloud_avatar2_task.svg');
+}
+
+
+
+
+/* Components */
+/* colours for the different boxes */
+
+.c4l_horst_cloud-box.c4l_horst_cloud-tip {
+  background-color: #FFEECC;
+}
+
+.c4l_horst_cloud-box.c4l_horst_cloud-szenario {
+  background-color: #CEF8FF;
+}
+
+.c4l_horst_cloud-box.c4l_horst_cloud-problem {
+  background-color: #FFD1BD;
+}
+
+.c4l_horst_cloud-box.c4l_horst_cloud-dontdo {
+  background-color: #FFBCD0;
+}
+
+.c4l_horst_cloud-box.c4l_horst_cloud-feedback {
+  background-color: #E7FAC3;
+}
+
+.c4l_horst_cloud-box.c4l_horst_cloud-task {
+  background-color: #EBD4FF; 
+}
