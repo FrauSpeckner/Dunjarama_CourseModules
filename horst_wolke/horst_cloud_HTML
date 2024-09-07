@@ -1,0 +1,69 @@
+
+
+    <!-- Titelcontainer mit Horst im Titel -->
+    <br><br> <br><br><div class="c4l_horst_cloud-titel-container c4l_horst_cloud-avatar1 c4l_horst_cloud-titel">
+        Welcome to Horst & Cloud's Adventure!
+    </div><br>
+
+    <!-- Boxen mit Horst links und Cloud rechts -->
+
+    <!-- Tip Box - Horst (links) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar1 c4l_horst_cloud-tip">
+        <p>Tip from Horst: Always stay curious and keep learning!</p>
+    </div><br>
+
+    <!-- Tip Box - Cloud (rechts) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar2 c4l_horst_cloud-tip">
+        <p>Tip from Cloud: Stay organized, it'll help you conquer any task!</p>
+    </div><br>
+
+    <!-- Szenario Box - Horst (links) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar1 c4l_horst_cloud-szenario">
+        <p>Horst is explaining the scenario. Listen carefully!</p>
+    </div><br>
+
+    <!-- Szenario Box - Cloud (rechts) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar2 c4l_horst_cloud-szenario">
+        <p>Cloud has a scenario too! What will she do?</p>
+    </div><br>
+
+    <!-- Problem Box - Horst (links) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar1 c4l_horst_cloud-problem">
+        <p>Horst: Oh no! We have a problem. Let's solve it together.</p>
+    </div><br>
+
+    <!-- Problem Box - Cloud (rechts) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar2 c4l_horst_cloud-problem">
+        <p>Cloud: Hmm, this looks tricky. What should we do next?</p>
+    </div><br>
+
+    <!-- Don't Do Box - Horst (links) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar1 c4l_horst_cloud-dontdo">
+        <p>Horst says: Don't rush! Patience is key to success.</p>
+    </div><br>
+
+    <!-- Don't Do Box - Cloud (rechts) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar2 c4l_horst_cloud-dontdo">
+        <p>Cloud advises: Never skip the important details!</p>
+    </div><br>
+
+    <!-- Feedback Box - Horst (links) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar1 c4l_horst_cloud-feedback">
+        <p>Horst: Great job! You're doing amazing work!</p>
+    </div><br>
+
+    <!-- Feedback Box - Cloud (rechts) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar2 c4l_horst_cloud-feedback">
+        <p>Cloud: Keep it up, you're almost there!</p>
+    </div><br>
+
+    <!-- Task Box - Horst (links) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar1 c4l_horst_cloud-task">
+        <p>Horst's Task: Finish the first module with a smile! 😊</p>
+    </div><br>
+
+    <!-- Task Box - Cloud (rechts) -->
+    <div class="c4l_horst_cloud-box c4l_horst_cloud-avatar2 c4l_horst_cloud-task">
+        <p>Cloud's Task: Organize your notes and stay on top of things!</p>
+    </div><br>
+
