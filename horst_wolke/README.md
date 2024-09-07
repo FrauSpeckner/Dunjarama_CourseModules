@@ -6,17 +6,23 @@ Horst and cloud are the main characters, and they have their own special categor
 ---
 
 ### 🌟 Preview on Codepen 🌟
+
 [✨ Check it out on Codepen! ✨](https://codepen.io/Frau-Speckner/pen/JjQwxWd?editors=1100)
 
+ 
 ---
 
 ### 🎨 CSS for horst_cloud 🎨
+
 [💻 View the CSS file on GitHub 💻](https://github.com/FrauSpeckner/Dunjarama_CourseModules/blob/main/horst_cloud_CSS)
+
 
 ---
 
 ### 📝 HTML for horst_cloud 📝
+
 [📄 View the HTML file on GitHub 📄](https://github.com/FrauSpeckner/Dunjarama_CourseModules/blob/main/horst_wolke/horst_cloud_HTML)
+
 
 ---
 
