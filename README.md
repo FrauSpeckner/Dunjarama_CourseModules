@@ -26,13 +26,13 @@ The **category** defines the essential CSS rules that apply to all containers an
 ### for categroys:
 Here you see all css-classes, that define that look of the components in this category
 
-- .c4l-**techpals**-title-box 
-- .c4l-**techpals**-title box::before
+- .c4l-**techpals**-title-box  (bestimmt das Ausehen der Titelbox)
+- .c4l-**techpals**-title box::before (bestimmt das Aussehen des Bildes)
 
-- .c4l-**techpals**-box
-- .c4l-**techpals**-box .c4l-**techpals**-avatar2
+- .c4l-**techpals**-box (bestimmt das Aussehen der Boxen) 
+- .c4l-**techpals**-box .c4l-**techpals**-avatar2 (bestimmt das Aussehen der Boxen mit Avatar rechts)
 
-- .c4l-**techpals**-box .c4l-**techpals**-tip
+- .c4l-**techpals**-box .c4l-**techpals**-tip (Hier werden die Farben der einzelnen Boxen bestimmt) 
 - .c4l-**techpals**-box .c4l-**techpals**-szenario
 - .c4l-**techpals**-box .c4l-**techpals**-problem
 - .c4l-**techpals**-box .c4l-**techpals**-dontdo
@@ -44,8 +44,8 @@ Here I work with Pseudoelements, that adds the Avatars. To where avatar1 always 
 
 
 **Adding flavours in the title**
-- .c4l-**techpals**-title-box .c4l_**horst_cloud**-title::before
-- .c4l-**techpals**-title-box .c4l_**robi_bot**-title::before
+- .c4l-**techpals**-title-box .c4l_**horst_cloud**-title::before (Hier wird das Titelbild für den Flavour horst_cloud hochgeladen) 
+- .c4l-**techpals**-title-box .c4l_**robi_bot**-title::before (Hier wird das Titelbild für den Flavour robit_bot hochgeladen) 
 
 
 **The CSS-classes for horst_cloud**
