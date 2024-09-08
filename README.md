@@ -17,6 +17,7 @@ Here are the categorys I already made, there are ALOT more to come.
 ---
 
 ## 🌟 **How does it work? Categorys define the general style** 🌟
+## Here for the category techpals that includes right now horst_cloud and robi_bot
 
 The **category** defines the essential CSS rules that apply to all containers and boxes in this category. These styles include general settings like borders, colors, fonts, and layouts – everything you need to give your design a consistent, polished look! ✨
 
