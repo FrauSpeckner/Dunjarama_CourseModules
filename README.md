@@ -1,9 +1,3 @@
-# Dunjarama - CourseModules for the C4L-Plugin 🎉
-
-## 🎨 Moodle CSS Design for Course Components 🎨
-
-![Title Image](https://assets.codepen.io/7398902/readme.png)
-
 
 # Dunjarama - CourseModules for the C4L-Plugin 🎉
 
@@ -17,7 +11,10 @@
 
 ## 🌟 What’s Inside?
 
-**Avatars** are an essential part of making course components engaging and fun. They help categorize different **flavours** (themes) and bring visual recognition to various parts of your course.
+**Avatars** are an essential part of making course components engaging and fun. They help categorize different **flavours** (themes) and bring visual recognition to various parts of your course. Avatars always come in **pairs**, serving as **moderators** that guide students through the course content. 
+
+These pairs make the course feel more interactive and personalized, adding a unique touch to the learning experience.
+
 
 ### 🔧 How Avatars Work:
 
@@ -45,8 +42,8 @@ For the **TechPals** category, the avatars are placed either on the **left** or 
      - `.c4l-techpals-box .c4l_avatar1 .c4l-horst-tip` (left avatar for tips)
      - `.c4l-techpals-box .c4l_avatar2 .c4l-horst-szenario` (right avatar for scenarios)
    - For the **robi_bot** flavour:
-     - `.c4l-techpals-box .c4l_avatar1 .c4l-bot-task` (left avatar for tasks)
-     - `.c4l-techpals-box .c4l_avatar2 .c4l-bot-feedback` (right avatar for feedback)
+     - `.c4l-techpals-box .c4l_avatar1 .c4l-bot-tip` (left avatar for tip)
+     - `.c4l-techpals-box .c4l_avatar2 .c4l-bot-szenario` (right avatar for szenario)
 
 ### 🛠️ **Easy to Customize**:
 
